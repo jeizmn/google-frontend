@@ -1,0 +1,176 @@
+#topbar {
+    display: flex;
+    height: 64px;
+    width: 100%;
+    align-items: flex-end;
+    position: sticky;
+    background-color: white;
+}
+
+#searchbarimage {
+    height: 60px;
+    padding: 0px 28px 10px 30px;
+    cursor: pointer;
+}
+
+#searchbarmic {
+    height: 45px;   
+    width: 35px;
+    margin-left: auto;
+    background-color: white;
+}
+
+#searchbarmic img {
+    height: 25px;
+}
+
+#searchbarbutton {
+    height: 45px;
+    width: 55px;
+    position: relative;
+    margin-right: -2px;
+    background-color: white;
+}
+
+#searchbarbutton svg {
+    height: 25px;
+    width: 35px;
+    position: relative;
+    left: -3px;
+}
+
+#searchbarbutton svg path {
+    fill: #4285F4
+}
+
+#searchbar {
+    width: 625px;
+    height: 45px;
+    border-radius: 100px;
+    border-color: lightgray;
+    border-style: solid;
+    border-width: 1px;
+    font-size: 16px;
+    position: relative;
+    bottom: 5px;
+    overflow: hidden;
+    display: flex;
+    z-index: 100;
+}
+
+#searchbar:hover {
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+}
+
+#searchbar > input {
+    height: 45px;
+    border-style: none;
+    font-size: 16px;
+    line-height: 45px;
+    padding-left: 20px;
+    flex: 1;
+}
+
+#searchbar > input:focus {
+    outline: none;
+}
+
+#searchbar button {
+    border: none;
+    cursor: pointer;
+}
+
+#searchbar button:focus {
+    outline: none;
+}
+
+#boxesicon {
+    width: 25px;
+    height: 25px;
+    opacity: 0.6;
+    background-size: 26px;
+    position: absolute;
+    right: 130px;
+    bottom: 14px;
+}
+
+#optionsmenuactive::after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background-color: #4285F4;
+    left: 5px;
+    bottom: 0px;
+}
+
+#optionsmenu2 {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    margin: 0px;
+    margin-left: 100px;
+}
+
+#optionsmenu2 li {
+    padding: 0px 10px 15px 20px;
+}
+
+#bellicon {
+    width: 20px;
+    height: 20px;
+    background-color: rgb(105, 105, 105);
+    background-size: 12px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    position: absolute;
+    right: 90px;
+    bottom: 18px;
+}
+
+#profileimage {
+    border-radius: 50px;
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    right: 40px;
+    bottom: 12px;
+}
+
+#optionsbar {
+    width: 100%;
+    height: 50px;
+    border-width: 0px;
+    border-bottom: 1px;
+    border-color: lightgray;
+    border-style: solid;
+    display: flex;
+    align-items: flex-end;
+    font-family: 'Arial';
+    font-size: 13px;
+    color: rgb(112, 112, 112);
+    padding-top: 64px;
+}
+
+#optionsmenu1 {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    margin: 0px;
+    margin-left: 150px;
+}
+
+#optionsmenu1 li {
+    padding: 0px 10px 15px 20px;
+}
+
+#optionsmenuactive {
+    color: #4285F4;
+    font-weight: bold;
+    position: relative;
+    z-index: -1;
+}
